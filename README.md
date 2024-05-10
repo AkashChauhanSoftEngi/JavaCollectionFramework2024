@@ -105,7 +105,7 @@ It is a collection of collection classes and map classes. It is also called the 
 **1. Collection Interface (Their Implementation Classes)** <br>
 **2. Map Interface (Their Implementation Classes)**
 
-![image](https://github.com/AkashChauhanSoftEngi/Java_Programming_Practice/assets/23252844/1d6b27ec-d91d-458f-b05f-98b81a906ba1)
+![image](https://github.com/AkashChauhanSoftEngi/JavaCollectionFramework2024/assets/23252844/8b51dc74-fcd3-4870-9379-67cc97d2ba64)
 
 ## 1. Collection Interface
 > 1. List <br>
