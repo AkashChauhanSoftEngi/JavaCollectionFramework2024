@@ -301,9 +301,9 @@ public class SampleClass {
 
 		Set<String> hash_Set = new HashSet<String>();
 
-		hash_Set.add("Geeks");
+		hash_Set.add("Amit");
 		hash_Set.add("For");
-		hash_Set.add("Geeks");
+		hash_Set.add("Amit");
 		hash_Set.add("Example");
 		hash_Set.add("Set");
 		hash_Set.add(null);
@@ -330,9 +330,9 @@ public class SampleClass {
 
 		Set<String> hash_Set = new LinkedHashSet<String>();
 
-		hash_Set.add("Geeks");
+		hash_Set.add("Amit");
 		hash_Set.add("For");
-		hash_Set.add("Geeks");
+		hash_Set.add("Amit");
 		hash_Set.add("Example");
 		hash_Set.add("Set");
 		hash_Set.add(null);
@@ -360,9 +360,9 @@ public class SampleClass {
 		// Set demonstration using HashSet
 		Set<String> tree_Set = new TreeSet<String>();
 
-		tree_Set.add("Geeks");
+		tree_Set.add("Amit");
 		tree_Set.add("For");
-		tree_Set.add("Geeks");
+		tree_Set.add("Amit");
 		tree_Set.add("Example");
 		tree_Set.add("Set");
 		try {
@@ -381,8 +381,8 @@ public class SampleClass {
 ## 1.3 Queue\<E\> Interface and its implementation classes:
 | S.No | Implementation Classes of Queue\<E\> Interface  | Description |
 | ---- | ------------- | ------------- |
-|1| PriorityQueue\<E\> | . Sorted Ordered, allows duplicates, no null values |
-|2| LinkedList\<E\> | . Not thread-safe, Allows duplicates, Allows multiple null values |
+|1| PriorityQueue\<E\> | . Sorted Ordered, allows duplicates, no null values, not thread safe |
+|2| LinkedList\<E\> | . Not thread-safe, Allows duplicates, Allows multiple null values, preserved order |
 |3| PriorityBlockingQueue\<E\> | . Thread Safety + PriorityQueue |
 |4| LinkedBlockingQueue\<E\> | . Thread safe + allows duplicates, no null values, preserved order |
 
