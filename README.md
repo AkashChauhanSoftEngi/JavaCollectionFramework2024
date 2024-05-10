@@ -381,7 +381,7 @@ public class SampleClass {
 ## 1.3 Queue\<E\> Interface and its implementation classes:
 | S.No | Implementation Classes of Queue\<E\> Interface  | Description |
 | ---- | ------------- | ------------- |
-|1| PriorityQueue\<E\> | . Order not preserved, allows duplicates, no null values, not thread-safe. <br> . It does not follow the FIFO order and store elements based on their priority. <be> . Priorities can be set using the 'Comparable Interface' and its compareTo() method.|
+|1| PriorityQueue\<E\> | . Order not preserved, allows duplicates, no null values, not thread-safe. <br> . It does not follow the FIFO order and store elements based on their priority. <br> . Priorities can be set using the 'Comparable Interface' and its compareTo() method.|
 |2| LinkedList\<E\> | . Not thread-safe, Allows duplicates, Allows multiple null values, preserved order |
 |3| PriorityBlockingQueue\<E\> | . Thread Safety + PriorityQueue |
 |4| LinkedBlockingQueue\<E\> | . Thread safe + allows duplicates, no null values, preserved order |
