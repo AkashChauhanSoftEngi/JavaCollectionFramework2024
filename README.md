@@ -381,7 +381,7 @@ public class SampleClass {
 ## 1.3 Queue\<E\> Interface and its implementation classes:
 | S.No | Implementation Classes of Queue\<E\> Interface  | Description |
 | ---- | ------------- | ------------- |
-|1| PriorityQueue\<E\> | . Sorted Ordered, allows duplicates, no null values, not thread safe |
+|1| PriorityQueue\<E\> | . order not preserved, allows duplicates, no null values, not thread safe |
 |2| LinkedList\<E\> | . Not thread-safe, Allows duplicates, Allows multiple null values, preserved order |
 |3| PriorityBlockingQueue\<E\> | . Thread Safety + PriorityQueue |
 |4| LinkedBlockingQueue\<E\> | . Thread safe + allows duplicates, no null values, preserved order |
